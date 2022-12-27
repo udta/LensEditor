@@ -1,37 +1,38 @@
 @font-face {
-  font-family: 'icomoon';
-  src:  url('icomoon.eot?w7ermo');
-  src:  url('icomoon.eot?w7ermo#iefix') format('embedded-opentype'),
-    url('icomoon.ttf?w7ermo') format('truetype'),
-    url('icomoon.woff?w7ermo') format('woff'),
-    url('icomoon.svg?w7ermo#icomoon') format('svg');
+  font-family: "icomoon";
+  src: url("icomoon.eot?w7ermo");
+  src: url("icomoon.eot?w7ermo#iefix") format("embedded-opentype"),
+    url("icomoon.ttf?w7ermo") format("truetype"),
+    url("icomoon.woff?w7ermo") format("woff"),
+    url("icomoon.svg?w7ermo#icomoon") format("svg");
   font-weight: normal;
   font-style: normal;
   font-display: block;
 }
 @font-face {
-    font-family: "Open Sans";
-    src: url("opensans-regular-webfont.woff");
-  }
-  @font-face {
-    font-family: "Bungee";
-    src: url("BungeeSpice-Regular.ttf");
-  }
-  @font-face {
-    font-family: "Asul";
-    src: url("Asul-Regular.ttf");
-  }
-  @font-face {
-    font-family: "Playfair";
-    src: url("PlayfairDisplay-VariableFont_wght.ttf");
-  }
-  @font-face {
-    font-family: "Anton";
-    src: url("Anton-Regular.ttf");
-  }
-[class^="icon-"], [class*=" icon-"] {
+  font-family: "Open Sans";
+  src: url("opensans-regular-webfont.woff");
+}
+@font-face {
+  font-family: "Bungee";
+  src: url("BungeeSpice-Regular.ttf");
+}
+@font-face {
+  font-family: "Asul";
+  src: url("Asul-Regular.ttf");
+}
+@font-face {
+  font-family: "Playfair";
+  src: url("PlayfairDisplay-VariableFont_wght.ttf");
+}
+@font-face {
+  font-family: "Anton";
+  src: url("Anton-Regular.ttf");
+}
+[class^="icon-"],
+[class*=" icon-"] {
   /* use !important to prevent issues with browser extensions that change fonts */
-  font-family: 'icomoon' !important;
+  font-family: "icomoon" !important;
   speak: never;
   font-style: normal;
   font-weight: normal;
@@ -288,6 +289,10 @@
   color: #8393a7;
 }
 .icon-EM-1:before {
+  content: "\e93d";
+  color: #fff;
+}
+.icon-EM-2:before {
   content: "\e93d";
   color: #fff;
 }
