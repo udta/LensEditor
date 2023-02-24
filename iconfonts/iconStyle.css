@@ -10,8 +10,8 @@
   font-display: block;
 }
 @font-face {
-  font-family: "Open Sans";
-  src: url("opensans-regular-webfont.woff");
+  font-family: "OpenSans";
+  src: url("OpenSans.ttf");
 }
 @font-face {
   font-family: "Bungee";
