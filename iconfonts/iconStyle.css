@@ -52,7 +52,7 @@
 
 .icon-xml_select_nor:before {
   content: "\e900";
-  color: #e4e7eb;
+  color: #000;
 }
 .icon-xml_select:before {
   content: "\e901";
