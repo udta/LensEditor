@@ -11,11 +11,22 @@
 .ql-container {
   box-sizing: border-box;
   font-family: "Open Sans";
-  font-size: 12px;
+  font-size: 14px;
   height: 100%;
   margin: 0px;
   position: relative;
 }
+.lens .ql-container{
+  font-size: 14px;
+}
+.ghp621 .ql-container{
+  color: #C8C9C7;
+
+}
+.lens.ghp621 .ql-container #rn-box{
+  color: #fff;
+}
+
 .ql-container.ql-disabled .ql-tooltip {
   visibility: hidden;
 }
